@@ -1,12 +1,15 @@
 <?php
 
-  function lang( $phrase ){
+  function lang($phrase){
     static $lang = array (
-      // Dashboard Page
-      'HOME_ADMIN' => 'Inicio',
-      'CATEGORIES' => 'Categorias',
-      '' => '',
-      '' => '',
+
+      // Navbar links
+      'HOME_ADMIN'    => 'Inicio',
+      'CATEGORIES'    => 'Categorias',
+      'ITEMS'         => 'Itens',
+      'MEMBERS'       => 'Membros',
+      'STATISTICS'    => 'Estatisticas',
+      'LOGS'          => 'Logs',
     );
     return $lang[$phrase];
   }
